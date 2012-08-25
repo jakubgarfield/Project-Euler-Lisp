@@ -12,6 +12,7 @@
 (provide ProjectEuler-init Main)
 (provide lblResult001)
 (provide txtResult001)
+(provide horizontal-pane-1992)
 
 (define (label-bitmap-proc l)
   (let ((label (first l)) (image? (second l)) (file (third l)))
